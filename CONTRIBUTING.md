@@ -4,9 +4,10 @@
 
 - [Reporting bugs](#reporting-bugs)
 - [Proposing features or improvements](#proposing-features-or-improvements)
+- [Contributing Code](#contributing-code)
 - [Contributing pull requests](#contributing-pull-requests)
 - [Contributing to Godot's translation](#contributing-to-godots-translation)
-- [Contributing Code](#contributing-code)
+- [Contributing to Godot's documentation](#contributing-to-godots-documentation)
 - [Communicating with developers](#communicating-with-developers)
 
 ## Reporting bugs
@@ -177,6 +178,35 @@ readme](editor/translations/README.md) for more information.
 You can also help translate [Godot's
 documentation](https://hosted.weblate.org/projects/godot-engine/godot-docs/)
 on Weblate.
+
+## Contributing to Godot's Documentation
+We always need help to improve the documentation, be it the class reference or the manual. Below, you can find our content and writing guidelines and concrete guides to make changes to the documentation.
+
+### Guidelines
+
+Here are the principles and guidelines we strive to follow to write accessible documentation.
+
+    - [Content guidelines](https://docs.godotengine.org/en/stable/contributing/documentation/content_guidelines.html)
+    - [Writing guidelines](https://docs.godotengine.org/en/stable/contributing/documentation/docs_writing_guidelines.html)
+    - [Creating Documentation Images](https://docs.godotengine.org/en/stable/contributing/documentation/docs_image_guidelines.html)
+
+### Writing the manual
+
+These articles explain how to contribute to this very documentation, and how to build the online version locally for testing.
+
+    - [Contributing to the documentation](https://docs.godotengine.org/en/stable/contributing/documentation/contributing_to_the_documentation.html)
+    - [Building the manual with Sphinx](https://docs.godotengine.org/en/stable/contributing/documentation/building_the_manual.html)
+
+### Class reference guides
+
+The pages below focus on the class reference.
+
+As the reference is included in the Godot editor, its source files are part of the godot repository. We use XML files to write it, so the process to contribute to the class reference differs from writing the online manual.
+
+    - [Contributing to the class reference](https://docs.godotengine.org/en/stable/contributing/documentation/updating_the_class_reference.html)
+    - [Class reference primer](https://docs.godotengine.org/en/stable/contributing/documentation/class_reference_primer.html)
+
+
 
 
 ## Communicating with developers
