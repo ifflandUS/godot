@@ -6,6 +6,7 @@
 - [Proposing features or improvements](#proposing-features-or-improvements)
 - [Contributing pull requests](#contributing-pull-requests)
 - [Contributing to Godot's translation](#contributing-to-godots-translation)
+- [Contributing Code](#contributing-code)
 - [Communicating with developers](#communicating-with-developers)
 
 ## Reporting bugs
@@ -24,6 +25,23 @@ your best :)
 See [this article](https://godotengine.org/article/introducing-godot-proposals-repository)
 for detailed rationale on this change.
 
+## Contributing Code
+ Everyone is entitled to modify Godot's source code, and send those modifications 
+ back to the upstream project in the form of a patch (a text file describing the 
+ changes in a ready-to-apply manner) or - in the modern workflow that we use - via 
+ a so-called "pull request" (PR), i.e. a proposal to directly merge one or more 
+ Git commits (patches) into the main development branch.
+
+To ensure good collaboration and overall quality, the Godot developers enforce some 
+[rules](https://docs.godotengine.org/en/stable/contributing/development/code_style_guidelines.html) for code contributions, for example regarding the style to use in the C++ 
+code (indentation, brackets, etc.) or the Git and PR workflow.
+
+ A good place to start is by searching for issues tagged as [good first 
+ issue](https://github.com/godotengine/godot/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) on GitHub.
+
+ For info on getting started building from source you can view the documentation
+ [here](https://docs.godotengine.org/en/stable/contributing/development/compiling/index.html).
+ 
 ## Contributing pull requests
 
 If you want to add new engine features, please make sure that:
@@ -159,6 +177,7 @@ readme](editor/translations/README.md) for more information.
 You can also help translate [Godot's
 documentation](https://hosted.weblate.org/projects/godot-engine/godot-docs/)
 on Weblate.
+
 
 ## Communicating with developers
 
